@@ -1,0 +1,293 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Caveat Brush', cursive; */
+	/* font-family: 'Muli', sans-serif; */
+}
+.logo{
+	font-size:300px;
+	color:#3399ff;
+}
+
+@media screen and (max-width:680px) {
+  .logo{
+	  font-size:200px;
+}
+}
+
+
+.clear-top{
+	height:70px;
+	width:100%;
+	background-color:white;
+}
+.marg-top{
+    margin-top:30px;
+}
+
+.para-padding{
+	padding-left:80px;
+	padding-right:80px;
+}
+
+
+.lines{
+    display:none;
+    text-align:center;
+    font-size:25px;
+    height:100px;
+
+}
+
+.img-header{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+}
+
+.img-header img{
+	width:30%;
+	height:auto;
+}
+@media screen and (max-width:680px) {
+  .img-header img{
+	width:90%;
+}
+}
+
+.about{
+	height:400px;
+}
+
+.bg-cl-1{
+	background-color:lightgrey;
+}
+
+.abt{
+	height:600px;
+	
+	margin:auto;
+	background-color:#fff;
+}
+
+.abt-border{
+	border-left:solid 10px lightgrey;
+	border-right:solid 10px lightgrey;
+}
+
+.parallax-1{
+	border-top:solid 10px lightgrey;
+	border-bottom:solid 10px lightgrey;
+	height:500px;
+	width:100%;
+	background-image:url('../img/para1.jpeg');
+	background-attachment:unset;
+	background-size:cover;
+	text-align:center;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	/* background-color:blue; */
+}
+
+
+
+.parallax-2{
+	border-top:solid 10px lightgrey;
+	border-bottom:solid 10px lightgrey;
+	height:400px;
+	width:100%;
+	background-image:url('../img/para2.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	text-align:center;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	/* background-color:blue; */
+}
+
+#Year{
+	color:#0066ff;
+}
+#Year:hover{
+	color:#fff;
+}
+.dcmcontent {
+    width: 900px;
+    height: 100px;
+    background-color: transparent;
+	
+}
+
+.dcmcontent h2{
+	font-size:40px;
+	color:#fff;
+}
+.dcmcontent h1{
+	font-size:40px;
+	color:#fff;
+}
+.dcmcontent span{
+	font-size:50px;
+	color:#fff;
+}
+
+@media screen and (max-width:680px) {
+
+.dcmcontent h2{
+	font-size:25px;
+	color:#fff;
+}
+.dcmcontent h1{
+	font-size:25px;
+	color:#fff;
+}
+.dcmcontent span{
+	color:#fff;
+}
+}
+
+
+.dcmpara {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	
+}
+
+.dcmpara h2{
+	font-size:60px;
+	color:#fff;
+}
+.dcmpara h1{
+	font-size:40px;
+	color: #fff;
+}
+.dcmpara span{
+	font-size:50px;
+}
+
+@media screen and (max-width:680px) {
+
+.dcmpara h2{
+	font-size:60px;
+	color:#fff;
+}
+.dcmpara h1{
+	font-size:25px;
+	color: #fff;
+}
+.dcmpara span{
+	font-size:50px;
+}
+}
+
+.parallax-3{
+	border-top:solid 10px lightgrey;
+	border-bottom:solid 10px lightgrey;
+	height:600px;
+	width:100%;
+	background-image:url('../img/para3.jpeg');
+	background-attachment:fixed;
+	background-size:cover;
+	text-align:center;
+	
+	/* background-color:blue; */
+}
+
+
+.details{
+	overflow:auto;
+	border-bottom:solid 10px lightgrey;
+	height:auto;
+	width:100%;
+	padding-top:100px;
+	padding-left:400px;
+	padding-right:400px;
+	padding-bottom:100px;
+	margin:auto;
+	background-color:#fff;
+	text-align:center;
+	/* background-color:blue; */
+}
+
+@media screen and (max-width:1000px) {
+  .details{
+	  padding-left:20px;
+	  padding-right:20px;
+	  padding-top:5px;
+	  padding-bottom:5px;
+  }
+}
+
+.x-lg{
+	font-size:50px;
+}
+
+.contribs{
+
+	width:100%;
+	height:auto;
+}
+.cont-img{
+	float:left;
+	width:33.33%;
+	z-index:50;
+}
+
+@media screen and (max-width:680px) {
+  .cont-img{
+	width:100%;
+}
+}
+
+.contact{
+	width:100%;
+	height:auto;
+	background-color:#fff;
+	padding:40px;
+	margin:auto;
+	text-align:center;
+	border-bottom:solid 10px lightgrey;
+}
+
+.foot{
+	padding-top:40px;
+	padding-left:18px;
+	width:100%;
+	height:110px;
+	background-color:#1a1a1a;
+}
+
+.foot span{
+	color:#0066ff;
+	font-size:15px;
+	transition:ease-out 0.5s;
+}
+.foot p{
+	color:white;
+	font-size:15px;
+	transition:ease-out 0.5s;
+}
+.foot span:hover{
+	color:grey;
+	text-decoration:none;
+	transition:ease-in 0.5s;
+}
+
+#butttext a{
+	color:white;
+	font-size:14px;
+	transition:ease-out 0.5s;
+}
+#butttext a:hover{
+	color:grey;
+	text-decoration:none;
+	transition:ease-in 0.5s;
+}

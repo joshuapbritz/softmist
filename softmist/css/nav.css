@@ -1,0 +1,48 @@
+.navigate{
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: 70px;
+    background-color: white;
+     margin: 0;
+    padding: 0;
+	position:fixed;
+    overflow: hidden;
+	z-index:1000;
+}
+
+.nav-list{
+    list-style-type: none;
+
+}
+
+.nav-list a{
+	text-transform:uppercase;
+    display: inline-block;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 16px;
+    height: 70px;
+    color: #777;
+    height: 70px;
+    transition: ease-out 0.3s;
+
+}
+
+.nav-list a:hover {
+    color: #003366;
+    text-decoration: none;
+    transition: ease-in 0.3s;
+	background-color:lightgrey;
+}
+
+.active{
+    text-decoration: overline;
+}
+
+@media screen and (max-width:680px) {
+  .nav-list a{
+	font-size: 12px;
+	text-transform:none;
+}
+}
